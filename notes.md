@@ -1,6 +1,6 @@
-1. section 1
+1. ## section 1
   - no notes needed here really..
-2. section 2
+2. ## section 2
   - startup ideas:
     - something DnD related
     - druid wild shape tracker
@@ -8,7 +8,7 @@
   - choose-your-own-adventure
   - KGLW album picker?
     -pretty much just a peronality test
-3. section 3
+3. ## section 3
   - github notes (for assignment)
     - what I've learned from this assignment:
       - github is complicated lol

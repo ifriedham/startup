@@ -14,16 +14,16 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 - Back button to select different answers
 - Button with "Start Over" option
 - Ability to listen to soundbites of different albums
-    - (if I can figure out how to do this)
+  - (if I can figure out how to do this)
 - Persistant storing of results / progress
 - Top recommended albums list (real time updating)
-    - with total votes included
-    - ablility to add a name to your vote
-        - "See who likes this album", etc.
+  - with total votes included
+  - ablility to add a name to your vote
+    - "See who likes this album", etc.
 - Up/Down-voting buttons for final recommendations
 - Links to recommended albums
-    - and to band info (website/youtube/etc.)
-    - don't worry about copyright issues, the band is all about free distribution (they secretly run the bootleg account for their own music)
+  - and to band info (website/youtube/etc.)
+  - don't worry about copyright issues, the band is all about free distribution (they secretly run the bootleg account for their own music)
 - App theme changes dynamically with final recommendation
 
 ### Technologies:
@@ -36,7 +36,7 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 - Authentication - Login functionality if users want to save their progress / recommendations
 - Persistant data storing - saving user choices as they are made
 - WebSocket data: Shows real time data in the community section
-    - Most recommended albums / who likes those albums / etc. 
+  - Most recommended albums / who likes those albums / etc.
 
  <!--design images-->
 

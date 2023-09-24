@@ -50,7 +50,8 @@
   - `➜ ssh -i [key pair file] ubuntu@[ip adress OR domain name]`
     - ip adress (elastic I think): `3.95.142.128`
     - domain name: `griffinspacejam.click`
-- **DON'T FORGET TO PROPERLY RELEASE THE ELASTIC IP ADDRESS AT THE END OF THE SEMESTER** (in addition to terminating my instance)
+>[!IMPORTANT]
+>**DON'T FORGET TO PROPERLY RELEASE THE ELASTIC IP ADDRESS AT THE END OF THE SEMESTER** (in addition to terminating my instance)
 
 - Attempting to get a fun domain name. `griffinspacejam.click` is still registering as "in progress"
 

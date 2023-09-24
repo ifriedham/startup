@@ -1,57 +1,74 @@
 # Table of Contents 
 
-## Development essentials 
+### Development essentials
 
   [Section 1](#Section-1)  
   [Section 2](#Section-2)  
   [Section 3](#Section-3)  
 
-
-## Web Servers  
+___
+### Web Servers  
 
   [Section 4](#Section-4)  
 
-
-## HTML  
+___
+### HTML  
 
   [Section 5](#Section-5)  
 
 
-## CSS  
+### CSS  
 
   [Section 6](#Section-6)  
 
 
-## JavaScript
+### JavaScript
 
   [Section 7](#Section-7)  
   [Section 8](#Section-8) 
 
 
-## Midterm
+### Midterm
 
-  [notes](#notes)
+  [notes](#Midterm-Notes)
 
 
-#### Web Services
+### Web Services
 
   [Section 9](#Section-9)  
   [Section 10](#Section-10)  
   [Section 11](#Section-11) 
 
 
-## Web Frameworks, Mobile, and Security  
+### Web Frameworks, Mobile, and Security  
 
   [Section 12](#Section-12)  
   [Section 13](#Section-13)  
   [Section 14](#Section-14)  
 
+### Final Exam
+
+  [notes](#Final-Notes)
+
+
+
+
 ___
-# Section 1
+___
+
+
+
+# Development Essentials  
+
+### Section 1
 
 - no notes needed here really..
 
-# Section 2
+
+
+
+
+### Section 2
 
 - startup ideas:
   - something DnD related
@@ -61,7 +78,11 @@ ___
   - KGLW album picker?
     - pretty much just a peronality test
 
-# Section 3
+
+
+
+
+### Section 3
 
 - github notes (for assignment)
   - what I've learned from this assignment:
@@ -69,7 +90,12 @@ ___
     - using the built in git-manager in vscode is the way to go for me
     - **Practice with the github markdown**
 
-# Section 4
+
+
+
+# Web Servers  
+
+### Section 4
 
 - SSH (remote shell) into server:
   - `➜ ssh -i [key pair file] ubuntu@[ip adress OR domain name]`
@@ -84,4 +110,76 @@ ___
 
 
 
-# Notes
+# HTML  
+
+### Section 5  
+
+
+
+
+# JavaScript
+### Section 6  
+
+
+
+
+
+### Section 7  
+
+
+
+
+
+### Section 8  
+
+
+
+
+# Web Services
+### Section 9  
+
+
+
+
+
+### Section 10  
+
+
+
+
+
+### Section 11  
+
+
+
+
+# Web Frameworks, Mobile, and Security
+### Section 12  
+
+
+
+
+ 
+### Section 13  
+
+
+
+
+
+### Section 14  
+
+
+
+
+
+# Tests  
+### Midterm Notes   
+
+
+
+
+### Final Notes  
+
+
+
+

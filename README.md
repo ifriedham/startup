@@ -1,5 +1,7 @@
 # startup: :crocodile: KGLW Album Finder :crocodile:
 
+![King Gizzard and the Lizard Wizard name logo](name_logo.png)
+
 ## Startup specification
 
 ### Elevator pitch
@@ -25,6 +27,22 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
   - and to band info (website/youtube/etc.)
   - don't worry about copyright issues, the band is all about free distribution (they secretly run the bootleg account for their own music)
 - App theme changes dynamically with final recommendation
+
+### Design
+
+#### Splash / main page
+
+![picture of splash page](splash.jpg)
+
+#### Quiz card basic layout
+
+![picture of card layout](card.jpg)
+
+#### Global stats page
+
+![global layout picture](global.jpg)
+
+
 
 ### Technologies:
 

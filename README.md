@@ -1,3 +1,5 @@
+Useful links:  [📑Notes](notes.md)
+
 # startup: :crocodile: KGLW Album Finder :crocodile:
 
 ![King Gizzard and the Lizard Wizard name logo](name_logo.png)
@@ -58,4 +60,4 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 
 *note that I do not understand all of these completely yet
 
-[Notes](notes.md)
+

@@ -108,7 +108,7 @@
 
 ---
 
-[^1]: [this table](https://cdn-useast1.kapwing.com/collections/homer-simpsons-back-fat-meme-template-mxpbg.jpg)
+[^1]: [this table](https://github.com/ifriedham/startup/assets/46720476/49a157e0-a074-4ca2-8cd0-29fcd08f9515)
 
 > [!WARNING]  
 > crucial informations

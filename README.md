@@ -44,7 +44,7 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 
 
 
-### Technologies:
+### Technologies*:
 
 - HTML - Minimal number of pages with HTML structuring. Links to various external websites
 - CSS - Good symplistic and dynamic styling, workable with different screen sizes
@@ -56,6 +56,6 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 - WebSocket data: Shows real time data in the community section
   - Most recommended albums / who likes those albums / etc.
 
- <!--design images-->
+*note that I do not understand all of these completely yet
 
 [Notes](notes.md)

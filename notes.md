@@ -39,7 +39,8 @@
   - what I've learned from this assignment:
     - github is complicated lol
     - using the built in git-manager in vscode is the way to go for me
->[!NOTE]    - **Practice with the github markdown**
+>[!NOTE]
+> **Practice with the github markdown**
 
 ## Web Servers
 

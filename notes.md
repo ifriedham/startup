@@ -57,7 +57,8 @@
 
   - SUCCESS! my domain name is now `griffinspacejam.click`
 
-- **IMPORTANT**: don't forget about the region in the AWS. If something isn't right (ex: server just not showing up at all..), doublecheck that the region is set to `N. Virginia`
+>[!WARNING]
+>**IMPORTANT**: don't forget about the region in the AWS. If something isn't right (ex: server just not showing up at all..), doublecheck that the region is set to `N. Virginia`
 
 ## HTML
 

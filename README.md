@@ -32,7 +32,7 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 
 #### Splash / main page
 
-![picture of splash page](splash.jpg)
+![picture of splash page](spash.jpg)
 
 #### Quiz card basic layout
 

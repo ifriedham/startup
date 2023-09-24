@@ -111,8 +111,10 @@
 
 ---
 
-[^1]: [this table](https://github.com/ifriedham/startup/assets/46720476/49a157e0-a074-4ca2-8cd0-29fcd08f9515)
+[^1]: [this table](https://github.com/ifriedham/startup/assets/46720476/49a157e0-a074-4ca2-8cd0-29fcd08f9515)  
 
+
+<!--
 > [!WARNING]  
 > crucial informations
 
@@ -121,6 +123,8 @@
 
 > [!IMPORTANT]  
 > crucial informations
+-->
+
 
 <!--
 - [Development Essentials](#development-essentials)
@@ -153,7 +157,6 @@
 -->
 
 <!--
-
 <center>
 
 # Table of Contents

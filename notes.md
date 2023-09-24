@@ -22,13 +22,13 @@
 
 ## Section 4
 
-- SSH (remote shell) into server: 
-  - ```➜ ssh -i [key pair file] ubuntu@[ip adress OR domain name]```
-    - ip adress (elastic I think): ```3.95.142.128```
-    - domain name: ```griffinspacejam.click```
+- SSH (remote shell) into server:
+  - `➜ ssh -i [key pair file] ubuntu@[ip adress OR domain name]`
+    - ip adress (elastic I think): `3.95.142.128`
+    - domain name: `griffinspacejam.click`
 - **DON'T FORGET TO PROPERLY RELEASE THE ELASTIC IP ADDRESS AT THE END OF THE SEMESTER** (in addition to terminating my instance)
 
-- Attempting to get a fun domain name.  ```griffinspacejam.click``` is still registering as "in progress"
-  - SUCCESS! my domain name is now ```griffinspacejam.click```
+- Attempting to get a fun domain name. `griffinspacejam.click` is still registering as "in progress"
+  - SUCCESS! my domain name is now `griffinspacejam.click`
 
--**IMPORTANT**: don't forget about the region in the AWS.  If something isn't right (ex: server just not showing up at all..), doublecheck that the region is set to ```N. Virginia```
+-**IMPORTANT**: don't forget about the region in the AWS. If something isn't right (ex: server just not showing up at all..), doublecheck that the region is set to `N. Virginia`

@@ -63,7 +63,8 @@
 ## HTML
 
 ### Section 5
-
+  -Find a list with HTML elements and examples
+  -CodePen is my friend
 ## JavaScript
 
 ### Section 6

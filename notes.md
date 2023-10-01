@@ -14,7 +14,7 @@
 </p>
 
 ---
-
+#### [Markdown guide](https://www.markdownguide.org/basic-syntax/#overview)
 ---
 
 ## Development Essentials
@@ -63,8 +63,22 @@
 ## HTML
 
 ### Section 5
-  -Find a list with HTML elements and examples
-  -CodePen is my friend
+- [x] Find a list with HTML elements and examples
+- [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) with examples!
+- CodePen is my friend
+- [Quick access](https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md) to HTML input page (from class github)
+- pay attention to possible attributes for input elements
+  - ex: `value="#ff0000"` for input type `color`
+ ```html
+  <input 
+  type="color" 
+  name="varColor" 
+  id="color" 
+  value="#ff0000" 
+  />
+```
+  - 
+
 ## JavaScript
 
 ### Section 6

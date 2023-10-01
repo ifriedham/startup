@@ -77,7 +77,15 @@
   value="#ff0000" 
   />
 ```
-  - 
+  - [x] added all pics to new "images" folder
+> [!NOTE]
+> Note that you may need to include the `crossorigin="anonymous"` attribute if you are requesting files from a different domain than the one serving your content. 
+- SVG = Scalable Vector Graphics
+    - straight in HTML, **look for a good source for these**
+    - [Details](https://developer.mozilla.org/en-US/docs/Web/SVG) on these
+- Consider using SVG or Canvas for Startup
+
+
 
 ## JavaScript
 

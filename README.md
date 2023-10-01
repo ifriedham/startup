@@ -2,7 +2,7 @@ Useful links:  [📑Notes](notes.md)
 
 # startup: :crocodile: KGLW Album Finder :crocodile:
 
-![King Gizzard and the Lizard Wizard name logo](name_logo.png)
+![King Gizzard and the Lizard Wizard name logo](images/name_logo.png)
 
 ## Startup specification
 
@@ -34,15 +34,15 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 
 #### Splash / main page
 
-![picture of splash page](spash.jpg)
+![picture of splash page](images/spash.jpg)
 
 #### Quiz card basic layout
 
-![picture of card layout](card.jpg)
+![picture of card layout](images/card.jpg)
 
 #### Global stats page
 
-![global layout picture](global.jpg)
+![global layout picture](images/global.jpg)
 
 
 

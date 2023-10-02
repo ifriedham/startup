@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  <head>
     <!--What shows in the tab-->
-    <head> 
-        <meta charset="UTF-8" />
-        <!-- Tell browsers not to scale the viewport automatically -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>KGLW Album Finder</title>
-        <link rel="icon" href="favicon.ico" />
-    </head>
+    <meta charset="UTF-8" />
+    <title>KGLW Album Finder</title>
+    <link rel="icon" href="images/nonagon.png" />
+  </head>
+  <body>
+    <header>
+        <!--Login button / display username here-->
+        <div align="right">
+            <a href="login.html">
+                <button>Login [or username, not yet implemented]</button>
+            </a>
+        </div>
+    </header>
 
+    <main>
+        <!--Band name [add effects later?]-->
+      <img alt="KGLW name art" src="images/name_logo.png" />
+      <h1>Album Picker</h1>
 
+      <!--Album art carousel WIP-->
+      <img
+        alt="PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation"
+        width="300"
+        height="300"
+        src="images/Petrodraconic.jpg"
+      />
 
+      <!--Quiz button-->
+      <p>
+      <h2>KGLW have realesed [insert api-called # here] albums!</h2>
+      <h3>Don't know where to start? Find out here:</h3>
+      <a href="quiz.html">
+        <button type="button">Take quiz</button>
+      </a>
+      </p>
+      
+      <!--other buttons-->
+      <!--to Results-->
+      <div style="display: inline-block;">
+        Already took the quiz?<br>
+        <a href="results.html">
+        <button>See Result</button>
+        </a>
+      </div>
 
+      <!--to stats-->
+      <div style="display: inline-block;">
+        See what others got<br>
+        <a href="stats.html">
+        <button>Global Stats</button>
+        </a>
+      </div>
 
+    </main>
+
+    <footer>
+      <hr />
+      <span class="text-reset">Noah Christensen</span>
+      <br />
+      <a href="https://github.com/ifriedham/startup">GitHub</a>
+    </footer>
+  </body>
 </html>

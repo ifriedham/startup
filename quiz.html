@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--What shows in the tab-->
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/nonagon.png" />
+    <!--page name-->
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div align="right">
+        <!--Return home-->
+        <a href="index.html">
+          <button>home</button>
+        </a>
+        <!--Login button / display username here-->
+        <a href="login.html">
+          <button>Login [or username, not yet implemented]</button>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <h1>King Gizzard and the Lizard Wizard Album Picker</h1>
+      <div
+        id="future-quiz"
+        style="
+          width: 300px;
+          height: 300px;
+          background-color: #3498db;
+          border: 2px solid #2980b9;
+        "
+      >
+        <!--Space for CSS cards -->
+        <h3>CSS based Quiz here</h3>
+      </div>
+      <div style="display: inline-block">
+        <button>With choices!</button>
+      </div>
+
+      <div style="display: inline-block">
+        <button>And pictures!</button>
+      </div>
+
+      <div style="display: inline-block">
+        <button>And maybe more than two!</button>
+      </div>
+
+      <br><br><h2>For now, here's a working little html based quiz</h2>
+      <form method="get" action="results.html">
+        <!--question 1-->
+        <label for="genre"> If you had to choose a rock sub-genre, what would it be?</label> <br>
+        <input type="radio" id="psych" name="genre" value="psych" />Psychedelic
+        <input type="radio" id="prog" name="genre" value="prog" />Progressive (prog)
+        <input type="radio" id="metal" name="genre" value="metal" />metal
+        <input type="radio" id="chill" name="genre" value="chill" />acoustic/chill
+        <input type="radio" id="jam" name="genre" value="jam" />jam <br> <br>
+
+        <!--question 2-->
+        <label for="intensity"> What kind album would you like from your previous choice?</label> <br>
+        <input type="radio" id="easy" name="intensity" value="easy" />Easy listening
+        <input type="radio" id="med" name="intensity" value="med" />concept album (medium)
+        <input type="radio" id="hard" name="intensity" value="hard" />strange/obscure (hard) <br> <br>
+
+        <button type="submit">Find your album!"</button>
+      </form>
+    </main>
+
+    <footer>
+      <hr />
+      <span class="text-reset">Noah Christensen</span>
+      <br />
+      <a href="https://github.com/ifriedham/startup">GitHub</a>
+    </footer>
+  </body>
+</html>

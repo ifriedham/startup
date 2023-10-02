@@ -60,4 +60,15 @@ King Gizzard and the Lizard Wizard (or KGLW) is an Australian rockband famous fo
 
 *note that I do not understand all of these completely yet
 
+## HTML Deliverable 
 
+Built the base structure of my startup application using exclusively HTML
+
+- **HTML** - 5 HTML pages: index, login, quiz, results, and stats
+- **Links** - All pages accessable from `index.html`, and all pages lead into one another linearly
+- **Textual Content** - Plenty of descriptive text and examples/placeholders in each page.  Some quiz content written as a placeholder.
+- **3rd party service calls** - Placeholders for most popular songs from the albums inluded.  Also a miniplayer from SoundCloud is included, but I don't know if that counts
+- **Images** - Got a few album covers in there, as well as an image for the name of the band.
+- **Login** - Accessable from every page, with a placeholder html page.  Will make it a pop-up style card later on so the user can log in at any point during the quiz
+- **Database** - Album statistics + user info will be held in the database.  The `stats.html` page has a placeholder box to represent this info
+- **WebSocket** - Up/down-voting results will be updated in realtime both in the `results.html` and `stats.html` pages.  Placeholder text and forms are located in these as well.

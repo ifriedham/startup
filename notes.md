@@ -84,6 +84,8 @@
     - straight in HTML, **look for a good source for these**
     - [Details](https://developer.mozilla.org/en-US/docs/Web/SVG) on these
 - Consider using SVG or Canvas for Startup
+- these deploy scripts are confusing.. I hope we get to learn how to deploy things without a custom-made script later
+
 
 
 

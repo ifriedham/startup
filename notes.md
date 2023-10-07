@@ -109,6 +109,20 @@
       - Symbol
 - [Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
   - ooh maybe use [this](https://codepen.io/ifriedham/pen/QWzzpBB) to make some gators for the startup?
+- [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+  -  = adaptability of design (window size, device, etc.)
+  -  [Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+  -  for smartphones include: ```<meta name="viewport" content="width=device-width,initial-scale=1" /> ``` in the `head` element of all HTML pages
+  -  `float` = have text wrap around item
+  -  use `@media` selector to handle orientation
+    - Also used to hide / add items based on size (as aposed to scaling/wrapping)
+- [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+  - [examples](https://gridbyexample.com/)
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+  - [CSS Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - [Flexbox Froggy](https://flexboxfroggy.com/)
+  - Keeps size + location across different screen sizes / orientation(used with `@media`)
+  - 
 
 ## JavaScript
 

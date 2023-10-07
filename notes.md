@@ -86,12 +86,31 @@
 - Consider using SVG or Canvas for Startup
 - these deploy scripts are confusing.. I hope we get to learn how to deploy things without a custom-made script later
 
-
-
-
-## JavaScript
+## CSS
 
 ### Section 6
+
+- [Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Pseudo Selectors/classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+    - used for more interactive styling
+-[CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) (for CSS declarations, etc.)
+- Units
+    - can be varied, there are lots of possible ones
+    - [Here](https://www.w3schools.com/cssref/css_units.php) is a list
+-  [Color](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Applying_color)
+-  [Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+    - use a list of fonts, different OS's have different fonts
+      - Or import a font (still good practice to do a list)
+        - [google](https://fonts.google.com/) provides a bunch for free
+    - 4 Font Families:
+      - Serif
+      - Sans-serif
+      - Fixed
+      - Symbol
+- [Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+  - ooh maybe use [this](https://codepen.io/ifriedham/pen/QWzzpBB) to make some gators for the startup?
+
+## JavaScript
 
 ### Section 7
 

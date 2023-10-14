@@ -164,7 +164,7 @@
         ```
       - OR put `npm install bootstrap@5.2.3` in your console to install it straight to the server machine
       >[!WARNING]
-      >**UDATE THOSE LINKS**: find the links to the latest version before building the app
+      >**UPDATE THOSE LINKS**: find the [links](https://getbootstrap.com/) to the latest version before building the app
 - Simon CSS
   - I changed the Simon CSS files to make the colors way cooler, I also renamed the app "peter" on the play page
     - deploying caused me trouble again, gotta remember to do it in the right directory, and use `~/keys/<pemkeyfile>` for the pemkey address.  Also seems to work better in gitbash than vscode integrated terminal for some reason.

@@ -1,0 +1,69 @@
+body {
+  background: #00b4ff;
+  color: #333;
+  font: 100% Arial, Sans Serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@keyframes animateGator {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  animation: animateGator 35s linear infinite;
+  transform: scale(1.65);
+}
+
+.x2 {
+  animation: animateGator 20s linear infinite;
+  transform: scale(0.3);
+}
+
+.x3 {
+  animation: animateGator 30s linear infinite;
+  transform: scale(0.5);
+}
+
+.x4 {
+  animation: animateGator 18s linear infinite;
+  transform: scale(0.4);
+}
+
+.x5 {
+  animation: animateGator 25s linear infinite;
+  transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.gator {
+  background-image: url(images/gator.gif);
+  background-size: contain;
+  width: 350px; /* Adjust the width to fit your design */
+  height: 120px; /* Adjust the height to fit your design */
+  position: relative;
+  animation: animateGator 35s linear infinite;
+  transform: scale(0.65);
+}

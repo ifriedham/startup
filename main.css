@@ -1,66 +1,151 @@
-
-
 #background-wrap {
-	bottom: 0;
-	left: 0;
-	padding-top: 50px;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: -1;
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+/* changing Genres */
+span::before {
+	content: "twenty four";
+	animation: animate infinite 30s;
+	padding-left: 10px;
   }
-  
-  
-  @keyframes animateGator {
-	0% {
-	  transform: translateX(-1000px);
-	}
-	100% {
-	  transform: translateX(100%);
-	}
-  }
-  
-  /* animations */
-    .gator1 {
-	width: auto; 
-	height: 5vw; 
-	animation: animateGator 40s linear infinite;
-  }
-  
-  .gator2 {
-	width: auto; 
-	height: 10vw; 
-	animation: animateGator 20s linear infinite;
-  }
-  
-  .gator3 {
-	width: auto; 
-	height: 7.5vw; 
-	animation: animateGator 30s linear infinite;
-  }
-  
-  .gator4 {
-	width: auto; 
-	height: 9vw; 
-	animation: animateGator 18s linear infinite;
-  }
-  
-  .gator5 {
-	width: auto; 
-	height: 8.25vw; 
-	animation: animateGator 25s linear infinite;
-  }
-  
 
-  /* OBJECTS */
-  .gator {
-	width: 100%; 
-	height: 100%; 
-	object-fit: contain; 
+  @keyframes animate {
+	0% {
+	  content: "twenty four";
+	}
+  
+	4% {
+		content: "thrash metal";
+	  }
+  
+	8% {
+		content: "jazz";
+	}
+	12% {
+		content: "psych rock";
+	}
+	16% {
+		content: "synth pop";
+	}
+	20% {
+		content: "prog rock";
+	}
+	24% {
+		content: "acoustic";
+	}
+	28% {
+		content: "surf rock";
+	}
+	32% {
+		content: "spaghetti western audiobook";
+	}
+	36% {
+		content: "infinitely-looping";
+	}
+	40% {
+		content: "microtonal";
+	}
+	44% {
+		content: "jazz fusion";
+	}
+	48% {
+		content: "boogie";
+	}
+	52% {
+		content: "surf rock";
+	}
+	56% {
+		content: "alternative";
+	}
+	60% {
+		content: "Psychadellic";
+	}
+	64% {
+		content: "doom metal";
+	}
+	68% {
+		content: "techno rave";
+	}
+	72% {
+		content: "rap";
+	}
+	76% {
+		content: "jam";
+	}
+	80% {
+		content: "indie";
+	}
+	84% {
+		content: "progressive metal";
+	}
+	88% {
+		content: "gonzoid hip-hop";
+	}
+	92% {
+		content: "turkish Psychedelia";
+	}
+	96% {
+		content: "acid rock";
+	}
+
   }
-  
-  
-  
-  
-  
-  
+
+/* Aligators */
+@keyframes animateGator {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* animations */
+.gator1 {
+  width: auto;
+  height: 5vw;
+  animation: animateGator 40s linear infinite;
+}
+
+.gator2 {
+  width: auto;
+  height: 10vw;
+  animation: animateGator 20s linear infinite;
+}
+
+.gator3 {
+  width: auto;
+  height: 7.5vw;
+  animation: animateGator 30s linear infinite;
+}
+
+.gator4 {
+  width: auto;
+  height: 9vw;
+  animation: animateGator 18s linear infinite;
+}
+
+.gator5 {
+  width: auto;
+  height: 8.25vw;
+  animation: animateGator 25s linear infinite;
+}
+
+/* OBJECTS */
+.gator {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

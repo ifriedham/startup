@@ -20,14 +20,35 @@
 
 /* changing Genres */
 
-body {
-  font-family: "DasModern";
+header {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1vw;
+	padding: 1.5vw;
 }
 
-.gator {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+main {
+	font-family: "DasModern";
+}
+
+.main-flexbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .box {
+	display: flex;
+	flex-direction: row nowrap;
+	gap: 10vw;
+  }
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 1vw;
 }
 
 span::before {
@@ -36,12 +57,12 @@ span::before {
   padding-left: 10px;
 }
 
-.main-flexbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* objects */
+.gator {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+  }
 
 /* Keyframes */
 @keyframes animate {

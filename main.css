@@ -45,12 +45,12 @@ footer {
   flex-shrink: 10;
 }
 
-span::before {
+.animated-word::before {
   display: inline-block;
   text-align: center;
   width: max-content;
   content: "twenty four";
-  animation: animate infinite 30s;
+  animation: animate infinite 25s;
 
   background: #ffe608d2;
   border: solid 1px #c7beb6;

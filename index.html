@@ -35,21 +35,94 @@ low priority:
   <body>
     <header>
       <!--Login button / display username here-->
-
-      <a class="btn btn-primary" href="login.html" role="button">Login</a>
-      <h4>or</h4>
-      <div class="btn-group">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/nonagon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            KGLW ALbum Picker
+        </a>
         <button
+          class="navbar-toggler"
           type="button"
-          class="btn btn-primary dropdown-toggle"
-          data-bs-toggle="dropdown"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          [USERNAME HERE]
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Log Out</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="dropdown-menu">
+        <form class="px-4 py-3">
+          <div class="form-group">
+            <label for="exampleDropdownFormEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleDropdownFormEmail1"
+              placeholder="email@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleDropdownFormPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="dropdownCheck"
+            />
+            <label class="form-check-label" for="dropdownCheck">
+              Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">New around here? Sign up</a>
+        <a class="dropdown-item" href="#">Forgot password?</a>
       </div>
     </header>
 
@@ -97,195 +170,191 @@ low priority:
         </div>
       </div>
 
-      
-        <!--Band name [add effects later?]-->
-        <img alt="KGLW name art" src="images/name_logo.png" />
-        <h1>Album Picker</h1>
+      <!--Band name [add effects later?]-->
+      <img alt="KGLW name art" src="images/name_logo.png" />
+      <h1>Album Picker</h1>
 
-        <!--Album art carousel WIP-->
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="images/12BarBruise.jpeg"
-                class="d-block w-100"
-                alt="12BarBruise"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Butterfly3000.jpeg"
-                class="d-block w-100"
-                alt="Butterfly3000"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Changes.jpeg"
-                class="d-block w-100"
-                alt="Changes"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/EyesLikeTheSky.jpeg"
-                class="d-block w-100"
-                alt="EyesLikeTheSky"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/FishingForFishies.jpeg"
-                class="d-block w-100"
-                alt="FishingForFishies"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/FloatAlong.jpeg"
-                class="d-block w-100"
-                alt="FloatAlong"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/FlyingMicrotonalBanana.jpeg"
-                class="d-block w-100"
-                alt="FlyingMicrotonalBanana"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/GumbootSoup.jpeg"
-                class="d-block w-100"
-                alt="GumbootSoup"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/IceDeath.jpeg"
-                class="d-block w-100"
-                alt="IceDeath"
-              />
-            </div>
-            <div class="carousel-item">
-              <img src="images/ITRN.jpeg" class="d-block w-100" alt="ITRN" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/KG.jpeg" class="d-block w-100" alt="KG" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/LW.jpeg" class="d-block w-100" alt="LW" />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/LaminatedDenim.jpeg"
-                class="d-block w-100"
-                alt="LaminatedDenim"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/MindFuzz.jpeg"
-                class="d-block w-100"
-                alt="MindFuzz"
-              />
-            </div>
-            <div class="carousel-item">
-              <img src="images/MOTU.jpeg" class="d-block w-100" alt="MOTU" />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Nonagon.jpeg"
-                class="d-block w-100"
-                alt="Nonagon"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Oddments.jpeg"
-                class="d-block w-100"
-                alt="Oddments"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/OmniumGatherum.jpeg"
-                class="d-block w-100"
-                alt="OmniumGatherum"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/PaperMache.jpeg"
-                class="d-block w-100"
-                alt="PaperMache"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Petrodraconic.jpg"
-                class="d-block w-100"
-                alt="Petrodraconic"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Polygondwanaland.jpeg"
-                class="d-block w-100"
-                alt="Polygondwanaland"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Quarters.jpeg"
-                class="d-block w-100"
-                alt="Quarters"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Sketches.jpeg"
-                class="d-block w-100"
-                alt="Sketches"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/Timeland.jpeg"
-                class="d-block w-100"
-                alt="Timeland"
-              />
-            </div>
+      <!--Album art carousel WIP-->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/12BarBruise.jpeg"
+              class="d-block w-100"
+              alt="12BarBruise"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Butterfly3000.jpeg"
+              class="d-block w-100"
+              alt="Butterfly3000"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Changes.jpeg"
+              class="d-block w-100"
+              alt="Changes"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/EyesLikeTheSky.jpeg"
+              class="d-block w-100"
+              alt="EyesLikeTheSky"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/FishingForFishies.jpeg"
+              class="d-block w-100"
+              alt="FishingForFishies"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/FloatAlong.jpeg"
+              class="d-block w-100"
+              alt="FloatAlong"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/FlyingMicrotonalBanana.jpeg"
+              class="d-block w-100"
+              alt="FlyingMicrotonalBanana"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/GumbootSoup.jpeg"
+              class="d-block w-100"
+              alt="GumbootSoup"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/IceDeath.jpeg"
+              class="d-block w-100"
+              alt="IceDeath"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="images/ITRN.jpeg" class="d-block w-100" alt="ITRN" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/KG.jpeg" class="d-block w-100" alt="KG" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/LW.jpeg" class="d-block w-100" alt="LW" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/LaminatedDenim.jpeg"
+              class="d-block w-100"
+              alt="LaminatedDenim"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/MindFuzz.jpeg"
+              class="d-block w-100"
+              alt="MindFuzz"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="images/MOTU.jpeg" class="d-block w-100" alt="MOTU" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Nonagon.jpeg"
+              class="d-block w-100"
+              alt="Nonagon"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Oddments.jpeg"
+              class="d-block w-100"
+              alt="Oddments"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/OmniumGatherum.jpeg"
+              class="d-block w-100"
+              alt="OmniumGatherum"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/PaperMache.jpeg"
+              class="d-block w-100"
+              alt="PaperMache"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Petrodraconic.jpg"
+              class="d-block w-100"
+              alt="Petrodraconic"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Polygondwanaland.jpeg"
+              class="d-block w-100"
+              alt="Polygondwanaland"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Quarters.jpeg"
+              class="d-block w-100"
+              alt="Quarters"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Sketches.jpeg"
+              class="d-block w-100"
+              alt="Sketches"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Timeland.jpeg"
+              class="d-block w-100"
+              alt="Timeland"
+            />
           </div>
         </div>
-        
+      </div>
 
-        <!-- Changing line -->
-        <h2>KGLW have done <span></span> albums</h2>
-        <h3>So which one should you start with?</h3>
+      <!-- Changing line -->
+      <h2>KGLW have done <span class="animated-word"></span> albums</h2>
+      <h3>So which one should you start with?</h3>
 
-        <!-- Quiz button -->
-        <button type="button" class="btn btn-primary btn-lg" href="quiz.html">
-          Take Quiz
-        </button>
+      <!-- Quiz button -->
+      <a class="btn btn-primary btn-lg" href="quiz.html"> Take Quiz </a>
 
-        <!--other buttons-->
-        <div class="box">
-          <h4>Already took the quiz?</h4>
-          <h4>See what others got</h4>
-          <div class="break"></div>
-          <a class="btn btn-primary" href="results.html" role="button"
-            >See Results</a
-          >
-          <a class="btn btn-primary" href="stats.html" role="button"
-            >Global Stats</a
-          >
-        </div>
+      <!--other buttons-->
+      <div class="box">
+        <h4>Already took the quiz?</h4>
+        <h4>See what others got</h4>
+        <div class="break"></div>
+        <a class="btn btn-primary" href="results.html" role="button"
+          >See Results</a
+        >
+        <a class="btn btn-primary" href="stats.html" role="button"
+          >Global Stats</a
+        >
+      </div>
     </main>
 
     <footer>

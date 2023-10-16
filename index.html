@@ -85,35 +85,47 @@
         <!--Band name [add effects later?]-->
         <img alt="KGLW name art" src="images/name_logo.png" />
         <h1>Album Picker</h1>
+
         <!--Album art carousel WIP-->
-        <img
-          alt="Petrodraconic"
-          width="250"
-          height="250"
-          src="images/Petrodraconic.jpg"
-        />
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/12BarBruise.jpeg" class="d-block w-100" alt="12BarBruise">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Butterfly3000.jpeg" class="d-block w-100" alt="Butterfly3000">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Changes.jpeg" class="d-block w-100" alt="Changes">
+            </div>
+          </div>
+        </div>
+        <br />
 
-        <!--Quiz button-->
-
-        <h2>KGLW have done<span></span> albums</h2>
+        <!-- Changing line -->
+        <h2>KGLW have done <span></span> albums</h2>
         <h3>So which one should you start with?</h3>
         <br />
+
+        <!-- Quiz button -->
         <button type="button" class="btn btn-primary btn-lg" href="quiz.html">
           Take Quiz
         </button>
         <br />
 
         <!--other buttons-->
-
         <div class="box">
           <h4>Already took the quiz?</h4>
           <h4>See what others got</h4>
+          <div class="break"></div>
+          <!-- break -->
+          <a class="btn btn-primary" href="results.html" role="button"
+            >See Results</a
+          >
+          <a class="btn btn-primary" href="stats.html" role="button"
+            >Global Stats</a
+          >
         </div>
-        <div class="box">
-          <a class="btn btn-primary" href="results.html" role="button">See Results</a>
-          <a class="btn btn-primary" href="stats.html" role="button">Global Stats</a>
-        </div>
-      
       </ul>
     </main>
 

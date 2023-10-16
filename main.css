@@ -18,51 +18,73 @@
   z-index: -1;
 }
 
-/* changing Genres */
-
 header {
-	display: flex;
-	justify-content: flex-end;
-	gap: 1vw;
-	padding: 1.5vw;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1vw;
+  padding: 1.5vw;
 }
 
 main {
-	font-family: "DasModern";
+  font-family: "DasModern";
 }
 
 .main-flexbox {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .box {
-	display: flex;
-	flex-direction: row nowrap;
-	gap: 10vw;
-  }
+.carousel {
+  /* Album image size */
+  width: 35vw;
+  height: 35vw;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.github {
+  align-self: center;
+}
 
 footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1vw;
 }
 
 span::before {
+	display: inline-block;
+	text-align: center;
+	width:max-content;
   content: "twenty four";
   animation: animate infinite 30s;
-  padding-left: 10px;
+
+  background: #ffe608d2;
+  border: solid 1px #c7beb6;
+  
+  border-radius: 5px;
+  
+  box-shadow: 0 0 3px #ccc;
 }
 
 /* objects */
 .gator {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-  }
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 /* Keyframes */
 @keyframes animate {

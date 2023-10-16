@@ -65,17 +65,17 @@ footer {
 }
 
 span::before {
-	display: inline-block;
-	text-align: center;
-	width:max-content;
+  display: inline-block;
+  text-align: center;
+  width: max-content;
   content: "twenty four";
   animation: animate infinite 30s;
 
   background: #ffe608d2;
   border: solid 1px #c7beb6;
-  
+
   border-radius: 5px;
-  
+
   box-shadow: 0 0 3px #ccc;
 }
 

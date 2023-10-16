@@ -20,14 +20,6 @@
 }
 
 
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1vw;
-  padding: 1.5vw;
-}
-
 main {
   font-family: "DasModern";
   display: flex;

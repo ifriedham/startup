@@ -1,4 +1,18 @@
 <!DOCTYPE html>
+
+<!-- 
+TO DO: 
+-get that dang footer to stay at the bottom
+-change font on buttons for legibility (can i just modify the .btn css?)
+-figure out @media values
+-changing word line position/size fixed
+
+low priority:
+-background color changing (js?)
+-Cooler carousel
+-animated band logo
+ -->
+
 <html lang="en">
   <head>
     <title>KGLW Album Finder</title>
@@ -81,7 +95,7 @@
         </div>
       </div>
 
-      <ul class="main-flexbox">
+      
         <!--Band name [add effects later?]-->
         <img alt="KGLW name art" src="images/name_logo.png" />
         <h1>Album Picker</h1>
@@ -247,25 +261,22 @@
             </div>
           </div>
         </div>
-        <br />
+        
 
         <!-- Changing line -->
         <h2>KGLW have done <span></span> albums</h2>
         <h3>So which one should you start with?</h3>
-        <br />
 
         <!-- Quiz button -->
         <button type="button" class="btn btn-primary btn-lg" href="quiz.html">
           Take Quiz
         </button>
-        <br />
 
         <!--other buttons-->
         <div class="box">
           <h4>Already took the quiz?</h4>
           <h4>See what others got</h4>
           <div class="break"></div>
-          <!-- break -->
           <a class="btn btn-primary" href="results.html" role="button"
             >See Results</a
           >
@@ -273,18 +284,17 @@
             >Global Stats</a
           >
         </div>
-      </ul>
     </main>
 
     <footer>
       <a
-        class="btn btn-primary"
+        class="btn btn-primary btn-sm"
         href="https://kinggizzardandthelizardwizard.com/"
         role="button"
         >Find out more!</a
       >
       <a
-        class="btn btn-primary"
+        class="btn btn-primary btn-sm"
         href="https://github.com/ifriedham/startup"
         role="button"
         >GitHub</a

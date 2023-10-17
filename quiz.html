@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
+
   <body class="d-flex flex-column min-vh-100">
     <header>
       <!--Login button / display username here-->
@@ -29,102 +30,49 @@
             class="d-inline-block align-top"
             alt="nonagon"
           />
-          Head Back
+          KGLW Album Picker
         </a>
         <div class="btn-group">
-          <button
-            type="button"
-            class="btn btn-primary dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Sign in [/username]
-          </button>
-          <div class="dropdown-menu dropdown-menu-end">
-            <form class="px-4 py-3">
-              <div class="form-group">
-                <label for="exampleDropdownFormEmail1">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleDropdownFormEmail1"
-                  placeholder="email@example.com"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleDropdownFormPassword1">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleDropdownFormPassword1"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="dropdownCheck"
-                />
-                <label class="form-check-label" for="dropdownCheck">
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="signup.html"
-              >New around here? Sign up</a
-            >
-          </div>
+          <a class="btn btn-primary" href="index.html">Head Back</a>
         </div>
       </nav>
     </header>
+
     <main>
-      <h1>King Gizzard and the Lizard Wizard Album Picker</h1>
-      <div
-        id="future-quiz"
-        style="
-          width: 300px;
-          height: 300px;
-          background-color: #3498db;
-          border: 2px solid #2980b9;
-        "
-      >
-        <!--Space for CSS cards -->
-        <h3>CSS based Quiz here</h3>
+      <div id="quiz-card" class="card" style="width: 80vw; margin: 4vw">
+        <div class="card-header">
+          <img src="images/bee.jpg" class="card-img-top" alt="barry" />
+        </div>
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title">
+            Do you like jazz? (question content goes here)
+          </h5>
+          <div id="choices" class="container">
+            <a href="#" class="btn btn-primary">Option 1</a>
+            <a href="#" class="btn btn-primary">Option 2</a>
+            <a href="#" class="btn btn-primary">Option 3</a>
+            <a href="#" class="btn btn-primary">Option 4</a>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <nav aria-label="quiz progress">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div style="display: inline-block">
-        <button>With choices!</button>
-      </div>
-
-      <div style="display: inline-block">
-        <button>And pictures!</button>
-      </div>
-
-      <div style="display: inline-block">
-        <button>And maybe more than two!</button>
-      </div>
-
-      <br><br><h2>For now, here's a little html based quiz to give an idea of what kind of questions will be asked</h2>
-      <form method="get" action="results.html">
-        <!--question 1-->
-        <label for="genre"> If you had to choose a rock sub-genre, what would it be?</label> <br>
-        <input type="radio" id="psych" name="genre" value="psych" />Psychedelic
-        <input type="radio" id="prog" name="genre" value="prog" />Progressive (prog)
-        <input type="radio" id="metal" name="genre" value="metal" />metal
-        <input type="radio" id="chill" name="genre" value="chill" />acoustic/chill
-        <input type="radio" id="jam" name="genre" value="jam" />jam <br> <br>
-
-        <!--question 2-->
-        <label for="intensity"> What kind album would you like from your previous choice?</label> <br>
-        <input type="radio" id="easy" name="intensity" value="easy" />Easy listening
-        <input type="radio" id="med" name="intensity" value="med" />concept album (medium)
-        <input type="radio" id="hard" name="intensity" value="hard" />strange/obscure (hard) <br> <br>
-
-        <button type="submit">Find your album!</button>
-      </form>
     </main>
 
     <footer class="mt-auto text-center text-lg-start text-bg-secondary">
@@ -141,6 +89,5 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    </footer>
   </body>
 </html>

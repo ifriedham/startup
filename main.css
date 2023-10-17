@@ -20,6 +20,7 @@
 }
 
 
+
 main {
   font-family: "DasModern";
   display: flex;
@@ -29,13 +30,6 @@ main {
   justify-content: space-between;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 1vw;
-  flex-shrink: 10;
-}
 
 .animated-word::before {
   display: inline-block;
@@ -44,12 +38,12 @@ footer {
   content: "twenty four";
   animation: animate infinite 25s;
 
-  background: #ffe608d2;
-  border: solid 1px #c7beb6;
+  background: rgb(171, 135, 255);
+  border: solid 1px #232122;
 
   border-radius: 5px;
 
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #232122;
 }
 
 /* objects */
@@ -75,10 +69,6 @@ footer {
 .break {
   flex-basis: 100%;
   height: 0;
-}
-
-.github {
-  align-self: center;
 }
 
 /* Keyframes */

@@ -59,6 +59,25 @@ main {
   object-fit: contain;
 }
 
+.accordion{
+  width: 60vw;
+}
+
+.accordion .card {
+  /* width: vw; */
+  align-items: center;
+}
+
+.vote {
+  display: inline-block;
+  cursor: pointer;
+  color: #687074
+} 
+
+.vote.on {
+  color: #f48024
+}
+
 .carousel {
   /* Album image size */
   width: 40vw;

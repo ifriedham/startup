@@ -34,129 +34,157 @@
           KGLW Album Picker
         </a>
         <div class="btn-group">
-          <button
-            type="button"
-            class="btn btn-primary dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Sign in [/username]
-          </button>
-          <div class="dropdown-menu dropdown-menu-end">
-            <form class="px-4 py-3">
-              <div class="form-group">
-                <label for="exampleDropdownFormEmail1">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleDropdownFormEmail1"
-                  placeholder="email@example.com"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleDropdownFormPassword1">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleDropdownFormPassword1"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="dropdownCheck"
-                />
-                <label class="form-check-label" for="dropdownCheck">
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="signup.html"
-              >New around here? Sign up</a
-            >
-          </div>
+          <a class="btn btn-primary" href="index.html">Head Back</a>
         </div>
       </nav>
     </header>
-    <main>
-      <!-- JavaScript logic to process form data and determine the recommendation -->
-      <h3>
-        So you want some metal... and you want it to be easy to listen to..
-      </h3>
-      <h2>Here's the perfect album for you:</h2>
-      <img
-        alt="PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation"
-        width="500"
-        height="500"
-        src="images/Petrodraconic.jpg"
-      />
-      <h1>
-        PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of
-        Planet Earth and the Beginning of Merciless Damnation
-      </h1>
-      <br /><br />
+    <main style="margin: 5vw">
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              So you like...
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <strong>Metal</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              ...And you'd prefer it to be...
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <strong>Easy listening</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              ...Then you should try:
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              <div class="card border-warning mb-3 text-center">
+                <img
+                  src="images/Petrodraconic.jpg"
+                  class="card-img-top d-flex justify-content-center"
+                  style="width: 40vw; height: 40vw"
+                  alt="PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    PetroDragonic Apocalypse; or, Dawn of Eternal Night: An
+                    Annihilation of Planet Earth and the Beginning of Merciless
+                    Damnation
+                  </h5>
+                  <p class="card-text">
+                    ... And here's the most popular song on the album:
+                  </p>
 
-      <!--to stats-->
-      See what others got<br />
-      <a href="stats.html"> <button>Global Stats</button><br /> </a>
+                  <!--Soundcloud widget-->
+                  <iframe
+                    width="100%"
+                    height="166"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1510314697&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                  ></iframe>
+                  <div
+                    style="
+                      font-size: 10px;
+                      color: #cccccc;
+                      line-break: anywhere;
+                      word-break: normal;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      font-family: Interstate, Lucida Grande,
+                        Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                        Tahoma, sans-serif;
+                      font-weight: 100;
+                    "
+                  >
+                    <a
+                      href="https://soundcloud.com/king-gizzard-the-lizard-wizard"
+                      title="King Gizzard &amp; The Lizard Wizard"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >King Gizzard &amp; The Lizard Wizard
+                    </a>
+                    ·
+                    <a
+                      href="https://soundcloud.com/king-gizzard-the-lizard-wizard/gila-monster"
+                      title="Gila Monster"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >Gila Monster
+                    </a>
+                  </div>
+                  <!--Soundcloud widget-->
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Like what you hear?</p>
 
-      <h2>
-        Here's the most popular song on the album: [api call for future me]
-      </h2>
-      <!--Soundcloud widget-->
-      <iframe
-        width="100%"
-        height="166"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1510314697&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-      ></iframe>
-      <div
-        style="
-          font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-          font-weight: 100;
-        "
-      >
-        <a
-          href="https://soundcloud.com/king-gizzard-the-lizard-wizard"
-          title="King Gizzard &amp; The Lizard Wizard"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >King Gizzard &amp; The Lizard Wizard
-        </a>
-        ·
-        <a
-          href="https://soundcloud.com/king-gizzard-the-lizard-wizard/gila-monster"
-          title="Gila Monster"
-          target="_blank"
-          style="color: #cccccc; text-decoration: none"
-          >Gila Monster
-        </a>
+                  <!-- JS needed here for sure -->
+                  <div id="voter" class="container"> 
+                    <button class="btn btn-primary" onclick="toggleVote('nah')">Nah..</button>
+                    <button class="btn btn-primary" onclick="toggleVote('yeah')">Yeah!</button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="btn btn-success" href="stats.html" role="button">
+                    See what others got
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--Up/down vote system, will keep score along with albums-->
-      <h2>Like what you hear? [Javascript for keeping score with albums]</h2>
-      <div id="voter">
-        <button id="upvote">Upvote</button>
-        <span id="vote-count">0</span>
-        <button id="downvote">Downvote</button>
-      </div>
-      <br /><br />
-      <!--Javascript here-->
     </main>
+
     <footer class="mt-auto text-center text-lg-start text-bg-secondary">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0)">
         By Noah Christensen:

@@ -68,14 +68,22 @@ main {
   align-items: center;
 }
 
-.vote {
-  display: inline-block;
-  cursor: pointer;
-  color: #687074
-} 
+.img-fluid {
+  width: 3em;
+  height: auto;
+}
 
-.vote.on {
-  color: #f48024
+#album-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+#approval-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: baseline;
 }
 
 .carousel {

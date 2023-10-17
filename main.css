@@ -19,21 +19,18 @@
   z-index: -1;
 }
 
-
+header {
+  font-family: DasModern;
+}
 
 main {
-  font-family: "DasModern";
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   gap: 1vh;
   align-items: center;
   justify-content: space-between;
 }
-
-/* footer {
-  position: absolute;
-  bottom: 0;
-} */
 
 .animated-word::before {
   display: inline-block;

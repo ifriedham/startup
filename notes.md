@@ -168,12 +168,55 @@
 - Simon CSS
   - I changed the Simon CSS files to make the colors way cooler, I also renamed the app "peter" on the play page
     - deploying caused me trouble again, gotta remember to do it in the right directory, and use `~/keys/<pemkeyfile>` for the pemkey address.  Also seems to work better in gitbash than vscode integrated terminal for some reason.
+- #### UX Design 
+  - Simplicity is key
+  -  Colors
+     - check out [paletton](https://paletton.com/) or [adobe](https://color.adobe.com/create/color-wheel)
+  - typography -> keep it to 3 at most + make it all legible
+  - Iconography
+    - [Font Awesome](https://fontawesome.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Material Icons](http://google.github.io/material-design-icons/), [Flat Color Icons](https://github.com/icons8/flat-color-icons), and [Ant Design Icons](https://github.com/ant-design/ant-design-icons)
+  - [Hick's Law](https://en.wikipedia.org/wiki/Hick%27s_law) = the time necessary to make a decision increases logarithmically wit hthe number of choices present
+  - try not to break the law -> consider a checklist for accessibility / data security / etc.
+  - walls: Do not restrict a user unless absolutely neccessary (ex: payment only required as last step)
 
 
 
 ## JavaScript
 
 ### Section 7
+
+- JS intro
+  - Seems very similar to C++ (same commenting style, functions, etc.)
+
+
+- [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
+- [JS objects and classes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
+  - objects are my friend
+    - check out their associated functions
+  - constructors = functions that return an object
+    - use the `new` operator
+  - class -> defines an object (very similar to C++)
+    - instead of `private:` we use `#`
+    - `extends` defines inheritance
+    - `super` passes parameters to parent
+
+
+
+- TO DO:
+  - JS Console
+  - Adding JS to HTML
+  - Types operator conditionals and loops
+  - strings
+  - functions
+  - arrow functions
+  - JSON
+  - Regular expressions
+  - rest and spread
+  - exceptions
+  - destructuring
+  - 
 
 ### Section 8
 

@@ -187,7 +187,95 @@
 
 - JS intro
   - Seems very similar to C++ (same commenting style, functions, etc.)
+- JS console
+  - not to be confused with the OS terminal / cmd
+  - useful functions:
+    - log - output a message to the console
+      ```js
+      console.log('hello');
+      // OUTPUT: hello
+      ```
+    - Timer - how long the code has been running
+      ```js
+      console.time('demo time');
+      // ... some code that takes a long time.
+      console.timeEnd('demo time');
+      // OUTPUT: demo time: 9762.74 ms
+      ```
+    - Count -how many times the code is called
+      ```js
+      console.count('a');
+      // OUTPUT: a: 1
+      console.count('a');
+      // OUTPUT: a: 2
+      console.count('b');
+      // OUTPUT: b: 1
+      ```
+- Adding JS to HTML
+  - either as `<script>` or as a `src` (other file)
+- JS type and construct
+  - variables declared with `let` or `const`
+    - `var` is a depreciated option - causes errors, so don't use
+  - Primitive types
 
+  | Type        | Meaning                                                    |
+  | ----------- | ---------------------------------------------------------- |
+  | `Null`      | The type of a variable that has not been assigned a value. |
+  | `Undefined` | The type of a variable that has not been defined.          |
+  | `Boolean`   | true or false.                                             |
+  | `Number`    | A 64-bit signed number.                                    |
+  | `BigInt`    | A number of arbitrary magnitude.                           |
+  | `String`    | A textual sequence of characters.                          |
+  | `Symbol`    | A unique value.                                            |
+
+  - object types
+
+  | Type       | Use                                                                                    | Example                  |
+  | ---------- | -------------------------------------------------------------------------------------- | ------------------------ |
+  | `Object`   | A collection of properties represented by name-value pairs. Values can be of any type. | `{a:3, b:'fish'}`        |
+  | `Function` | An object that has the ability to be called.                                           | `function a() {}`        |
+  | `Date`     | Calendar dates and times.                                                              | `new Date('1995-12-17')` |
+  | `Array`    | An ordered sequence of any type.                                                       | `[3, 'fish']`            |
+  | `Map`      | A collection of key-value pairs that support efficient lookups.                        | `new Map()`              |
+  | `JSON`     | A lightweight data-interchange format used to share information across programs.       | `{"a":3, "b":"fish"}`    |
+      
+  - `===` for equals, other math operators are normal (strict equality, `==` can still be used, though it sometimes has troubles with data conversions)
+  - variables change type dynamically
+  - conditional operators are standard (if else, etc.) here's a slimmer alt. for if else too:
+    ```js
+    a === 1 ? console.log(1) : console.log('not 1');
+    ```
+  - for more of these + operator examples, see [here](https://github.com/webprogramming260/.github/blob/main/profile/javascript/typeConstruct/typeConstruct.md)
+- JS strings
+  - specified with `""` or `''` or ` `` `
+    - if done with ` `` `, can contain more JS within the string specification
+  - functions
+
+    | Function      | Meaning                                                      |
+    | ------------- | ------------------------------------------------------------ |
+    | length        | The number of characters in the string                       |
+    | indexOf()     | The starting index of a given substring                      |
+    | split()       | Split the string into an array on the given delimiter string |
+    | startsWith()  | True if the string has a given prefix                        |
+    | endsWith()    | True if the string has a given suffix                        |
+    | toLowerCase() | Converts all characters to lowercase                         |
+
+    ```js
+    const s = 'Example:조선글';
+
+    console.log(s.length);
+    // OUTPUT: 11
+    console.log(s.indexOf('조선글'));
+    // OUTPUT: 8
+    console.log(s.split(':'));
+    // OUTPUT: ['Example', '조선글']
+    console.log(s.startsWith('Ex'));
+    // OUTPUT: true
+    console.log(s.endsWith('조선글'));
+    // OUTPUT: true
+    console.log(s.toLowerCase());
+    // OUTPUT: example:조선글
+    ```
 
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -205,10 +293,6 @@
 
 
 - TO DO:
-  - JS Console
-  - Adding JS to HTML
-  - Types operator conditionals and loops
-  - strings
   - functions
   - arrow functions
   - JSON

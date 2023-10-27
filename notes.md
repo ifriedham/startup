@@ -277,8 +277,80 @@
     // OUTPUT: example:조선글
     ```
 
-- [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Functions](https://github.com/webprogramming260/.github/blob/main/profile/javascript/functions/functions.md) pretty bog-standard
+  - can be declared inside other functions
+  - can be declared anywhere and passed as parameters (they're first order objects)
+- Arrow function
+  - simplifies syntax, saves space.  These two functions are equivalent: 
+    ```js
+    const a = [1, 2, 3, 4];
 
+    // standard function syntax
+    a.sort(function (v1, v2) {
+      return v1 - v2;
+    });
+
+    // arrow function syntax
+    a.sort((v1, v2) => v1 - v2);
+    ```
+  - returning values is unique with these, it's dependent on the curly-braces: 
+    ```js
+    () => 3;
+    // RETURNS: 3
+
+    () => {
+      3;
+    };
+    // RETURNS: undefined
+
+    () => {
+      return 3;
+    };
+    // RETURNS: 3
+    ```
+  - Arrow functions inherit the `this` pointer from the scope of where it is created
+  - look into `closure`, it gets complicated - but could be a useful tool.
+- Look [here](https://codepen.io/leesjensen/pen/XWxVBRx) for an example of functions (and arrow functions) in action
+- [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- JSON - simple/effective way to share and store data
+  - format
+    - JSON document contains these data types:
+      | Type    | Example                 |
+      | ------- | ----------------------- |
+      | string  | "crockford"             |
+      | number  | 42                      |
+      | boolean | true                    |
+      | array   | [null,42,"crockford"]   |
+      | object  | {"a":1,"b":"crockford"} |
+      | null    | null                    |
+    - example JSON doc:
+      ```json     
+      {
+        "class": {
+          "title": "web programming",
+          "description": "Amazing"
+        },
+        "enrollment": ["Marco", "Jana", "فَاطِمَة"],
+        "start": "2025-02-01",
+        "end": null
+      }
+      ```
+  - converting JSOn to and from JS using `JSON.parse` and `JSON.stringify`
+- JS regular expressions
+  - basically textual pattern matchers
+  - `string` class already has a bunch of functions that accept regular expressions: `match`, `replace`, `search`, `split`
+  - see [here](https://github.com/webprogramming260/.github/blob/main/profile/javascript/regularExpressions/regularExpressions.md) for some examples
+- Rest and Spread
+  - rest = a paramater that contains the `rest` of teh parameters (on-the-fly array)
+  - spread = the opposite: takes an array/string, expands it into a function's parameters
+- Exceptions
+  - `try`, `catch`, and `throw` style exceptions
+    - `finally` block will always be called whenever a `try` clock is exited
+  >[!WARNING]
+  >**WARNING**: use exceptions sparingly - only use when something "truly exceptional" occurs
+  - Fallback pattern: putting the feature path in a try block and fallback implementation in the catch block
+- Destructuring
+  - JS allows for dynamically changing variables with destructuring: think an array being changed into a variable with just the first array value as it's new val.
 
 - [JS objects and classes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
   - objects are my friend
@@ -290,17 +362,6 @@
     - `extends` defines inheritance
     - `super` passes parameters to parent
 
-
-
-- TO DO:
-  - functions
-  - arrow functions
-  - JSON
-  - Regular expressions
-  - rest and spread
-  - exceptions
-  - destructuring
-  - 
 
 ### Section 8
 

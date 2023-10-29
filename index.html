@@ -38,44 +38,19 @@
           />
           KGLW Album Picker
         </a>
-    
-        <div class="overlay" id="overlay"></div>
-        <div id="loginCard" class="card" style="display: none">
-          <div class="card-body">
-            <h5 class="card-title">Login</h5>
-            <form>
-              <div class="mb-3">
-                <label for="usernameInput" class="form-label">Username</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="usernameInput"
-                  placeholder="Ex: Han-Tyumi"
-                />
-                <small id="usernameHelpBlock" class="form-text text-muted">
-                  Your username may be displayed publicly on the Global Stats
-                  page, so keep it clean. ...and make it funny &#128521;
-                </small>
+        <!-- Login popup -->
+        <div class="overlay" id="overlay">
+          <div class="popupCard" id="popupCard">
+              <div class="card-body">
+                  <h5 class="card-title">Popup Card</h5>
+                  <p>This is a popup card overlay.</p>
+                  <button type="button" class="btn btn-secondary" id="closeButton">Close</button>
               </div>
-              <button type="button" class="btn btn-primary" id="actionButton">
-                Sign In
-              </button>
-              <button type="button" class="btn btn-secondary" id="closeCard">
-                Close
-              </button>
-            </form>
           </div>
         </div>
-    
-        <!-- Show username if given -->
-        <div id="usernameDisplay"></div>
 
+        <button type="button" class="btn btn-success" id="openButton">Login</button>
 
-        <button type="button" class="btn btn-success" id="headerButton">
-          Login
-        </button>
-    
-        
       </nav>
     </header>
     

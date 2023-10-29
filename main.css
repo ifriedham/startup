@@ -31,6 +31,37 @@
   z-index: 2;
 }
 
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing between form elements */
+}
+
+#loginForm .form-group {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  gap: 5px; 
+}
+
+#loginForm .form-buttons {
+  margin-bottom: 5px;
+}
+
+
+/* For the Successfully Logged Out Popup */
+#successLogoutCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing between elements */
+}
+
+#successLogoutCard .btn {
+  margin-top: 10px; /* Add spacing below the button */
+}
+
 /* Background (where the gators live) */
 #background-wrap {
   bottom: 0;

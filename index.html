@@ -18,12 +18,17 @@
       crossorigin="anonymous"
     />
 
+    <!-- JS -->
+    <script src="login.js"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="main.css" />
   </head>
+
   <body class="d-flex flex-column min-vh-100">
+
     <header>
-      <!--Login button / display username here-->
-      <nav class="navbar bg-secondary justify-content-between">
+      <nav class="navbar bg-secondary ">
         <a class="navbar-brand" href="index.html"
           ><img
             src="images/nonagon.png"
@@ -34,53 +39,28 @@
           />
           KGLW Album Picker
         </a>
-        <div class="btn-group">
-          <button
-            type="button"
-            class="btn btn-primary dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
-          >
-            Sign in [/username]
-          </button>
-          <div class="dropdown-menu dropdown-menu-end">
-            <form class="px-4 py-3">
-              <div class="form-group">
-                <label for="exampleDropdownFormEmail1">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleDropdownFormEmail1"
-                  placeholder="email@example.com"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleDropdownFormPassword1">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleDropdownFormPassword1"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="dropdownCheck"
-                />
-                <label class="form-check-label" for="dropdownCheck">
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="signup.html"
-              >New around here? Sign up</a
-            >
+
+    <!-- Login/Signup Card -->
+    <div class="overlay" id="overlay"></div>
+    <div id="loginCard" class="card" style="display: none;">
+      <div class="card-body">
+        <h5 class="card-title">Login</h5>
+        <form>
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+          </div>
+          
+          <button type="button" class="btn btn-primary">Sign In</button>
+          <button type="button" class="btn btn-secondary" id="closeCard">Close</button>
+        </form>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-success" id="showCard">Login</button>
+
+      
+        
           </div>
         </div>
       </nav>
@@ -132,7 +112,7 @@
 
       <!--Band name [add effects later?]-->
       <img alt="KGLW name art" src="images/name_logo.png" />
-      <h1 style="font-family: DasModern;">Album Picker</h1>
+      <h1 style="font-family: DasModern">Album Picker</h1>
 
       <!--Album art carousel WIP-->
       <div

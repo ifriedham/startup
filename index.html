@@ -28,8 +28,8 @@
   <body class="d-flex flex-column min-vh-100">
     <header>
       <nav class="navbar bg-secondary">
-        <a class="navbar-brand" href="index.html"
-          ><img
+        <a class="navbar-brand" href="index.html">
+          <img
             src="images/nonagon.png"
             width="30"
             height="30"
@@ -38,7 +38,7 @@
           />
           KGLW Album Picker
         </a>
-
+    
         <div class="overlay" id="overlay"></div>
         <div id="loginCard" class="card" style="display: none">
           <div class="card-body">
@@ -51,9 +51,10 @@
                   class="form-control"
                   id="usernameInput"
                   placeholder="Ex: Han-Tyumi"
-                >
+                />
                 <small id="usernameHelpBlock" class="form-text text-muted">
-                  Your username may be displayed publicly on the Global Stats page, so keep it clean. ...and make it funny &#128521;
+                  Your username may be displayed publicly on the Global Stats
+                  page, so keep it clean. ...and make it funny &#128521;
                 </small>
               </div>
               <button type="button" class="btn btn-primary" id="actionButton">
@@ -65,41 +66,20 @@
             </form>
           </div>
         </div>
+    
+        <!-- Show username if given -->
+        <div id="usernameDisplay"></div>
+
 
         <button type="button" class="btn btn-success" id="headerButton">
           Login
         </button>
-        <!-- Login Card
-        <div class="overlay" id="overlay"></div>
-        <div id="loginCard" class="card" style="display: none;">
-          <div class="card-body">
-            <h5 class="card-title">Login</h5>
-            <form>
-              <div class="mb-3">
-                <label for="usernameInput" class="form-label">Username</label>
-                <input type="text" class="form-control" id="usernameInput" placeholder="Enter your username">
-              </div>
-              <button type="button" class="btn btn-primary" id="login">Sign In</button>
-              <button type="button" class="btn btn-secondary" id="closeCard">Close</button>
-            </form>
-          </div>
-        </div>
-      -->
-
-        <!-- Logout Popup -->
-        <!-- <div class="overlay" id="overlay"></div>
-        <div id="logoutPopup" class="card" style="display: none;">
-          <div class="card-body">
-            <h5 class="card-title">Logout Successful</h5>
-            <button type="button" class="btn btn-secondary" id="closeLogoutPopup">Close</button>
-          </div>
-        </div>
-
-        <div id="usernameDisplay"></div>
-
-        <button type="button" class="btn btn-success" id="headerButton">Login</button> -->
+    
+        
       </nav>
     </header>
+    
+    
 
     <main>
       <!-- Background gators -->

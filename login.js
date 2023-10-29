@@ -17,42 +17,36 @@ document.addEventListener('DOMContentLoaded', function () {
       loginCard.style.display = 'none';
     }
   
-    // Check if user is logged in
-    const isLoggedIn = localStorage.getItem('isLoggedIn');
-  
-    // Show popup by default
-    if (!isLoggedIn) {
-      openPopup();
-    } else {
-      headerButton.textContent = 'Logout';
-      usernameDisplay.textContent = localStorage.getItem('username');
-    }
-  
-    closeCardButton.addEventListener('click', closePopup);
-  
-    actionButton.addEventListener('click', function () {
+    function login() {
       const username = usernameInput.value;
-  
       if (username) {
         headerButton.textContent = 'Logout';
         usernameDisplay.textContent = username;
-  
         localStorage.setItem('isLoggedIn', 'true');
         localStorage.setItem('username', username);
-  
         closePopup();
       }
-    });
+    }
   
-    headerButton.addEventListener('click', function () {
-      if (isLoggedIn) {
-        localStorage.removeItem('isLoggedIn');
-        localStorage.removeItem('username');
-        headerButton.textContent = 'Login';
-        usernameDisplay.textContent = '';
-      } else {
-        openPopup();
-      }
-    });
+    function logout() {
+      localStorage.removeItem('isLoggedIn');
+      localStorage.removeItem('username');
+      headerButton.textContent = 'Login';
+      usernameDisplay.textContent = '';
+      openPopup(); // Show the "Successfully Logged Out" message.
+    }
+  
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+  
+    if (!isLoggedIn) {
+      openPopup();
+      actionButton.addEventListener('click', login);
+    } else {
+      headerButton.textContent = 'Logout';
+      usernameDisplay.textContent = localStorage.getItem('username');
+      actionButton.addEventListener('click', logout);
+    }
+  
+    closeCardButton.addEventListener('click', closePopup);
   });
   

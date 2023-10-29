@@ -131,6 +131,53 @@ main {
   height: 0;
 }
 
+
+section {
+  width: 100%;
+}
+.micro-slider {
+  height: 40vw;
+  margin: 4vw;
+  position: relative;
+  width: 100%;
+}
+.micro-slider.fullwidth {
+  height: 40vw;
+  /* margin: 64px 0; */
+}
+.micro-slider.fullwidth .slider-item {
+  height: 40vw;
+  width: 100%
+}
+.slider-wrapper {
+  width: 100%;
+  height: 50vw;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: 0 50%;
+}
+.slider-item {
+  background: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
+  color: #FFF;
+  display: none;
+  height: 300px; 
+  width: 300px; 
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.slider-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+
 /* Keyframes */
 @keyframes animate {
   0% {

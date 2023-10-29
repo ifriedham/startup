@@ -3,12 +3,33 @@
 document.addEventListener('DOMContentLoaded', () => {
   
     //===== MICRO-SLIDER begin
-      const __ms = document.querySelector('.micro-slider');
+    const __ms = document.querySelector('.micro-slider');
     const __msSlider = new MicroSlider(__ms, { indicators: false, indicatorText: '' });
     const hammer = new Hammer(__ms);
-      const __msTimer = 2000;
+    const __msTimer = 2000;
     let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-      
+  
+    
+    // Define an array of background colors corresponding to each image
+    // const backgroundColors = [
+    //   'lightblue', // Background color for the first image
+    //   'lightgreen', // Background color for the second image
+    //   'lightcoral', // Background color for the third image
+    //   // Add more background colors for each image here
+    // ];
+  
+    // Function to change the background color based on the current slide
+    // function changeBackgroundColor(currentSlide) {
+    //   const currentIndex = currentSlide ? currentSlide.index : 0;
+    //   document.body.style.backgroundColor = backgroundColors[currentIndex];
+    // }
+  
+    // Initial background color
+    // changeBackgroundColor(__msSlider.current());
+  
+    // Event listener for micro-slider slide change
+   
+    
     //detect mouseenter event
       __ms.onmouseenter = function(e) {
       clearInterval(__msAutoplay); 

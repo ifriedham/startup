@@ -18,6 +18,7 @@
     />
 
     <link rel="stylesheet" href="main.css" />
+    <script src="quiz.js"></script>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <header>
@@ -168,9 +169,16 @@
                   <p class="card-text">Like what you hear?</p>
 
                   <!-- JS needed here for sure -->
-                  <div id="voter" class="container"> 
-                    <button class="btn btn-primary" onclick="toggleVote('nah')">Nah..</button>
-                    <button class="btn btn-primary" onclick="toggleVote('yeah')">Yeah!</button>
+                  <div id="voter" class="container">
+                    <button class="btn btn-primary" onclick="toggleVote('nah')">
+                      Nah..
+                    </button>
+                    <button
+                      class="btn btn-primary"
+                      onclick="toggleVote('yeah')"
+                    >
+                      Yeah!
+                    </button>
                   </div>
                 </div>
                 <div class="card-body">

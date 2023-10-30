@@ -39,10 +39,14 @@
     </header>
 
     <main>
+
       <div id="quiz-card" class="card" style="width: 80vw; margin: 4vw">
         <div class="card-header">
-          <img src="images/bee.jpg" class="card-img-top" alt="barry" />
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
+
         <div class="card-body d-flex flex-column justify-content-center">
           <h5 class="card-title">
             Do you like jazz? (question content goes here)
@@ -55,7 +59,7 @@
           </div>
         </div>
 
-        <div class="card-footer">
+        <div class="card-footer d-flex justify-content-center">
           <nav aria-label="quiz progress">
             <ul class="pagination">
               <li class="page-item disabled">

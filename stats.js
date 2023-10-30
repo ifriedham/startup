@@ -131,17 +131,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const tableBody = document.querySelector("table tbody");
   updateTable(albumData);
 
-  // Simulate real-time updates (change recommends for a random row every 5 seconds)
+  // TEMP simulated real-time updates (adds a random recommend to a random row every 10 seconds)
   setInterval(() => {
     const rowIndexToUpdate = Math.floor(Math.random() * albumData.length);
     albumData[rowIndexToUpdate].recommends += 1;
     updateTable(albumData);
-  }, 5000);
+  }, 10000);
 
-  // Function to update the table with new data
+
+  //FUTURE functionality
+  function recommendAlbum(albumName) {
+    const albumToRecommend = albumData.find(album => album.name === albumName);
+    if (albumToRecommend) {
+      albumToRecommend.recommends += 1;
+      updateTable(albumData);
+    }
+  }
+
   function updateTable(data) {
-    // Sort rows based on recommends in descending order
+    // Sorts albums by recommended
     const sortedData = [...data].sort((a, b) => b.recommends - a.recommends);
+    
+    // Creates table rows
     tableBody.innerHTML = "";
     sortedData.forEach((album, index) => {
       const rowElement = document.createElement("tr");

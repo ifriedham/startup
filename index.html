@@ -40,36 +40,37 @@
           KGLW Album Picker
         </a>
         <!-- Login and popup -->
-        <button id="loginButton" class="btn btn-primary">Login</button>
-
-        <div class="overlay" id="overlay">
-          <div class="popupCard card">
-            <div class="card-body">
-              <h5 class="card-title">Login Popup</h5>
-              <form id="loginForm">
-                <div class="form-group">
-                  <label for="username">Username:</label>
-                  <input type="text" class="form-control" id="username" placeholder="Enter your username">
-                </div>
-                <div class="form-buttons">
-                <button type="button" class="btn btn-primary" id="loginSubmit">Login</button>
-                <button type="button" class="btn btn-success" id="signupSubmit">Signup</button>
+        <div class="container">
+          <button id="loginButton" class="btn btn-primary">Login</button>
+          <!-- The popup overlay -->
+          <div class="overlay" id="overlay">
+            <div class="popupCard card">
+              <div class="card-body">
+                <h5 class="card-title">Login Popup</h5>
+                <form id="loginForm">
+                  <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                  </div>
+                  <button type="button" class="btn btn-primary" id="loginSubmit">Login</button>
+                  <button type="button" class="btn btn-success" id="signupSubmit">Signup</button>
+                </form>
+                <button type="button" class="btn btn-secondary" id="closeButton">Close</button>
               </div>
-              </form>
-              <button type="button" class="btn btn-secondary" id="closeButton">Close</button>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="overlay" id="successLogoutOverlay">
-        <div class="popupCard card" id="successLogoutCard">
-          <div class="card-body">
-            <h5 class="card-title">Successfully Logged Out</h5>
-            <button type="button" class="btn btn-secondary" id="successLogoutCloseButton">Close</button>
+      
+        <!-- Successfully logged out overlay -->
+        <div class="overlay" id="successLogoutOverlay">
+          <div class="popupCard" id="successLogoutCard">
+            <div class="card-body">
+              <h5 class="card-title">Successfully Logged Out</h5>
+              <button type="button" class="btn btn-secondary" id="successLogoutCloseButton">Close</button>
+            </div>
           </div>
         </div>
-      </div>
+      
 
 
 

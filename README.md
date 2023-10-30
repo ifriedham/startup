@@ -93,3 +93,8 @@ Added a great deal of both CSS and Bootstrap to my application (also started dow
 - **application images** - OH MAN I uploaded so many album covers into the /images file.  They are referenced at multiple points of the app - notably on the splash page, results page ("...then you should try:" section), and in the stats page.  I had a GIANT image that would slowley pan across in the background, but it was too busy.
 
 - **notes** - I feel like I spent a lot more time this time just debugging. out of everything, I think I am most comfortable using flexbox - bootstrap gets convoluted quick, and I am still unclear on all the CSS rules
+
+## JavaScript Deliverable:
+Spent WAAAAAY too long squashing bugs, JS is not my forte that is for sure...
+
+  - Future login:  

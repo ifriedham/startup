@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="main.css" />
+    <script src="quiz.js"></script>
   </head>
 
   <body class="d-flex flex-column min-vh-100">
@@ -40,43 +41,42 @@
 
     <main>
 
-      <div id="quiz-card" class="card" style="width: 80vw; margin: 4vw">
+      <div class="card" style="width: 80vw; margin: 4vw">
         <div class="card-header">
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-
+      
         <div class="card-body d-flex flex-column justify-content-center">
           <h5 class="card-title">
-            Do you like jazz? (question content goes here)
+            <span id="question-text">Question goes here</span>
           </h5>
-          <div id="choices" class="container">
-            <a href="#" class="btn btn-primary">Option 1</a>
-            <a href="#" class="btn btn-primary">Option 2</a>
-            <a href="#" class="btn btn-primary">Option 3</a>
-            <a href="#" class="btn btn-primary">Option 4</a>
-          </div>
+          <div id="choices" class="container"></div>
         </div>
-
+      
         <div class="card-footer d-flex justify-content-center">
           <nav aria-label="quiz progress">
             <ul class="pagination">
               <li class="page-item disabled">
                 <a class="page-link">Previous</a>
               </li>
+              <!-- Pagination for progress (1/3) -->
               <li class="page-item"><a class="page-link" href="#">1</a></li>
               <li class="page-item active" aria-current="page">
                 <a class="page-link" href="#">2</a>
               </li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <!-- Pagination for progress (3/3) -->
               <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" href="#" id="next-button">Next</a>
               </li>
+              
             </ul>
           </nav>
         </div>
       </div>
+      
     </main>
 
     <footer class="mt-auto text-center text-lg-start text-bg-secondary">

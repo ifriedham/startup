@@ -8,7 +8,9 @@
   font-style: normal;
 }
 
-
+body {
+  background-color: #FFEA00; 
+}
 
 /* popup overlay */
 .overlay {
@@ -73,18 +75,21 @@
   z-index: -1;
 }
 
-header {
-  .navbar {
-    justify-content: space-between;
+
+   .navbar {
+    background-color: #4400FF;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
     padding-left: 1vw;
     padding-right: 1vw;
-
   }
 
   .navbar-brand {
     font-family: DasModern;
+    color: white;
   }
-}
 
 main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -95,19 +100,22 @@ main {
   justify-content: space-between;
 }
 
+.btn-warning {
+  background-color: #5739aa;
+  color:white;
+}
+
+.btn-info {
+  background-color: #4400FF;
+  color: white;
+}
+
 .animated-word::before {
   display: inline-block;
   text-align: center;
   width: max-content;
   content: "twenty four";
   animation: animate infinite 25s;
-
-  background: rgb(171, 135, 255);
-  border: solid 1px #232122;
-
-  border-radius: 5px;
-
-  box-shadow: 0 0 3px #232122;
 }
 
 /* objects */
@@ -214,11 +222,9 @@ section {
   0% {
     content: "twenty four";
   }
-
   4% {
     content: "thrash metal";
   }
-
   8% {
     content: "jazz";
   }
@@ -259,7 +265,7 @@ section {
     content: "alternative";
   }
   60% {
-    content: "Psychadellic";
+    content: "psychadellic";
   }
   64% {
     content: "doom metal";

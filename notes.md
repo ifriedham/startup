@@ -371,7 +371,63 @@
 
 ### Section 9
 
+- URL = `Uniform Resource Locator`
+- Ports
+  Common ports:
+| Port | Protocol                                                                                           |
+| ---- | -------------------------------------------------------------------------------------------------- |
+| 20   | File Transfer Protocol (FTP) for data transfer                                                     |
+| 22   | Secure Shell (SSH) for connecting to remote devices                                                |
+| 25   | Simple Mail Transfer Protocol (SMTP) for sending email                                             |
+| 53   | Domain Name System (DNS) for looking up IP addresses                                               |
+| 80   | Hypertext Transfer Protocol (HTTP) for web requests                                                |
+| 110  | Post Office Protocol (POP3) for retrieving email                                                   |
+| 123  | Network Time Protocol (NTP) for managing time                                                      |
+| 161  | Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers |
+| 194  | Internet Relay Chat (IRC) for chatting                                                             |
+| 443  | HTTP Secure (HTTPS) for secure web requests                                                        |
+ - HTTP = `Hypertext Transfer Protocol`
+   - An HTTP request has this general syntax.
+
+  ```yaml
+  <verb> <url path, parameters, anchor> <version>
+  [<header key: value>]*
+  [
+  
+    <body>
+  ]
+  ```
+  - An HTTP response has the following syntax.
+
+  ```yaml
+  <version> <status code> <status string>
+  [<header key: value>]*
+  [
+  
+    <body>
+  ]
+  ```
+  - Find a list for status codes!
+  - do the same for headers!
+- SOP and CORS
+- Fetch
+- Service Design
+
 ### Section 10
+
+- Node.js
+  - Make sure to include `node_modules` in the `.gitignore` file if you plan on using git (or any other repo), as it can get very large
+  - run npm install in any new project directories cloned from github
+  - This may seem like a lot of work but after you do it a few times it will begin to feel natural. Just remember the main steps.
+  1. Create your project directory
+  1. Initialize it for use with NPM by running `npm init -y`
+  1. Make sure `.gitignore` file contains `node_modules`
+  1. Install any desired packages with `npm install <package name here>`
+  1. Add `require('<package name here>')` to your application's JavaScript
+  1. Use the code the package provides in your JavaScript
+  1. Run your code with `node index.js`
+- Express
+  - Used for getting middleware in between HTTP request and response 
 
 ### Section 11
 

@@ -410,8 +410,24 @@
   - Find a list for status codes!
   - do the same for headers!
 - SOP and CORS
+- Fetch
+- Service Design
 
 ### Section 10
+
+- Node.js
+  - Make sure to include `node_modules` in the `.gitignore` file if you plan on using git (or any other repo), as it can get very large
+  - run npm install in any new project directories cloned from github
+  - This may seem like a lot of work but after you do it a few times it will begin to feel natural. Just remember the main steps.
+  1. Create your project directory
+  1. Initialize it for use with NPM by running `npm init -y`
+  1. Make sure `.gitignore` file contains `node_modules`
+  1. Install any desired packages with `npm install <package name here>`
+  1. Add `require('<package name here>')` to your application's JavaScript
+  1. Use the code the package provides in your JavaScript
+  1. Run your code with `node index.js`
+- Express
+  - Used for getting middleware in between HTTP request and response 
 
 ### Section 11
 

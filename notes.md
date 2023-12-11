@@ -409,9 +409,9 @@
   ```
   - Find a list for status codes!
   - do the same for headers!
-- SOP and CORS
-- Fetch
-- Service Design
+- SOP and CORS*
+- Fetch*
+- Service Design*
 
 ### Section 10
 
@@ -428,7 +428,10 @@
   1. Run your code with `node index.js`
 - Express
   - Used for getting middleware in between HTTP request and response 
-
+- Debugging Node.js* !
+- Service daemons - PM2* !
+- UI Testing* !?
+- Endpoint Testing*
 ### Section 11
 
 ## Web Frameworks, Mobile, and Security

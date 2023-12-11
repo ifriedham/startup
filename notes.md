@@ -371,6 +371,46 @@
 
 ### Section 9
 
+- URL = `Uniform Resource Locator`
+- Ports
+  Common ports:
+| Port | Protocol                                                                                           |
+| ---- | -------------------------------------------------------------------------------------------------- |
+| 20   | File Transfer Protocol (FTP) for data transfer                                                     |
+| 22   | Secure Shell (SSH) for connecting to remote devices                                                |
+| 25   | Simple Mail Transfer Protocol (SMTP) for sending email                                             |
+| 53   | Domain Name System (DNS) for looking up IP addresses                                               |
+| 80   | Hypertext Transfer Protocol (HTTP) for web requests                                                |
+| 110  | Post Office Protocol (POP3) for retrieving email                                                   |
+| 123  | Network Time Protocol (NTP) for managing time                                                      |
+| 161  | Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers |
+| 194  | Internet Relay Chat (IRC) for chatting                                                             |
+| 443  | HTTP Secure (HTTPS) for secure web requests                                                        |
+ - HTTP = `Hypertext Transfer Protocol`
+   - An HTTP request has this general syntax.
+
+  ```yaml
+  <verb> <url path, parameters, anchor> <version>
+  [<header key: value>]*
+  [
+  
+    <body>
+  ]
+  ```
+  - An HTTP response has the following syntax.
+
+  ```yaml
+  <version> <status code> <status string>
+  [<header key: value>]*
+  [
+  
+    <body>
+  ]
+  ```
+  - Find a list for status codes!
+  - do the same for headers!
+- SOP and CORS
+
 ### Section 10
 
 ### Section 11
